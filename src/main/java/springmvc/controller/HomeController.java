@@ -19,5 +19,10 @@ public class HomeController {
 		System.out.println("this is about page ");
 		return "about";
 	}
+	
+	@RequestMapping("Carier")
+	public String carrier() {
+		return "Carier";
+	}
 
 }
